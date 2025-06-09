@@ -7,6 +7,6 @@
     <strong>Institución: </strong>Universidad Estatal Amazónica. <br>
     <strong>Carrera: </strong>Ingeniería en Tecnologías de la Información y Comunicación. <br>
     <strong>Estudiante: </strong>Lissi Cornejo Olaya. <br>
-    <strong>Materia: </strong>Programación Orientada a O bjetos(E). <br>
+    <strong>Materia: </strong>Programación Orientada a Objetos(E). <br>
     
 </p>
