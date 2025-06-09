@@ -83,25 +83,25 @@ public class SEMANA2TAREA {
 
     public static void main(String[] args) {
         // Ejemplo de Abstracción
-        System.out.println("🧪 Abstracción:");
+        System.out.println(" Abstracción:");
         Vehiculo vehiculo = new Vehiculo("Toyota", "Corolla");
         vehiculo.mostrarInfo();
 
         // Ejemplo de Encapsulación
-        System.out.println("\n🧪 Encapsulación:");
+        System.out.println("\n Encapsulación:");
         Telefono telefono = new Telefono("1234567890");
         System.out.println("Número de teléfono: " + telefono.getNumero());
         telefono.setNumero("abc123"); // Intento inválido
 
         // Ejemplo de Herencia
-        System.out.println("\n🧪 Herencia:");
+        System.out.println("\n Herencia:");
         Empleado emp = new Empleado("Taylor swift");
         emp.trabajar();
         Gerente gerente = new Gerente("Travis kelce");
         gerente.trabajar();
 
         // Ejemplo de Polimorfismo
-        System.out.println("\n🧪 Polimorfismo:");
+        System.out.println("\n Polimorfismo:");
         Empleado[] empleados = { new Desarrollador("Lissi"), new Gerente("Mabel") };
         for (Empleado e : empleados) {
             e.trabajar();
