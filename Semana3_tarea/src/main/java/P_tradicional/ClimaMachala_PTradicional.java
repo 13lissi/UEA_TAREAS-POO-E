@@ -1,5 +1,5 @@
 
-package com.mycompany.semana3_tarea.newpackage;
+package P_tradicional;
 
 /**
  *
