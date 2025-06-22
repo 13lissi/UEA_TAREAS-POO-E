@@ -13,9 +13,9 @@ import java.util.List;
 
 // Esta clase representa al bus y contiene la información de su conductor y pasajeros
 public class Bus {
-    private String placa;              // Placa del bus (ej: ABC-123)
+    private String placa;              // Placa del bus 
     private Conductor conductor;       // Objeto tipo Conductor
-    private List<Pasajero> pasajeros;  // Lista de pasajeros (pueden ser muchos)
+    private List<Pasajero> pasajeros;  // Lista de pasajeros 
 
     // Constructor: se crea el bus con su placa y su conductor
     public Bus(String placa, Conductor conductor) {
