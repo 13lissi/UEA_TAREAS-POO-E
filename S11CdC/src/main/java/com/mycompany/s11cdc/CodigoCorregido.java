@@ -42,6 +42,7 @@ public class CodigoCorregido {
 
         // Corrección 3: Validar si la clave existe antes de usar get()
         // Evitar NullPointerException al consultar claves inexistentes
+        //Podria usar la siguiente linea o asignar a un valor null, pero me parece mejor a mi entendimiento usar la establecida.
         //System.out.println("Bea: " + telefonos.getOrDefault("Bea", "No existe registro"));
 
         if (telefonos.containsKey("Bea")) {
